@@ -1,0 +1,41 @@
+
+        /* CSS for styling the button */
+        .btn {
+                position:fixed;
+                top: 40px;
+                
+                left: 400px;
+                margin: 5%;
+                right: 5%;
+                
+                font-family:sans-serif;
+        }
+        .btn1{
+            position:relative;
+            top: -25px;
+            left: 270px;
+            font-family:sans-serif;
+        }
+        .btn2{
+            position:relative;
+            top: -280px;
+            left: 300px;
+            margin: 0%;
+            font-family:sans-serif;
+        }
+        .btn3{
+            position:relative;
+            top: 250px;
+            left: 242px;
+            writing-mode: vertical-lr;
+            transform: rotate(150deg);
+            font-family:sans-serif;
+            font: size 20px;;
+        }
+        .btn4{
+            position:relative;
+            top: -25px;
+            left: 270px;
+            font-family:sans-serif;
+        }
+      

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Pollution Q&A - Ask a Question</title>
+</head>
+<body>
+    <h1>Ask a Question</h1>
+    <form action="{% url 'ask_question' %}" method="post">
+        {% csrf_token %}
+        <textarea name="question" rows="4" cols="50"></textarea><br>
+        <button type="submit">Ask</button>
+    </form>
+</body>
+</html>
